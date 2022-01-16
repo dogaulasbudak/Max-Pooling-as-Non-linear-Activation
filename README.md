@@ -1,8 +1,8 @@
 # Max-Pooling-as-Non-linear-Activation
 Inspired by a comment in a Computer Vision lecture offered by Michigan online (https://www.youtube.com/watch?v=ANyxBVxmdZ0&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=7), 
-that the max-pooling layer in CNN-based architectures can serve as non-linear activation, I have replaced the ReLu activation in a simple CNN-based classifier provided
+that the max-pooling layer in CNN-based architectures can serve as non-linear activation, I have tested the idea in a simple CNN-based classifier provided
 in a Tensorflow Tutorial (https://www.tensorflow.org/tutorials/quickstart/advanced). 
-The architecture is composed of a 2D Convolution layer with ReLu activation followed by a dense layer with ReLu activation, ending in a last dense layer outputting the
+The original architecture is composed of a 2D Convolution layer with ReLu activation followed by a dense layer with ReLu activation, ending in a last dense layer outputting the
 logits. The architecture is trained and tested on the MNIST dataset with five epochs. The results are as follows: 
 
   Epoch 1, Loss: 0.13081109523773193, Accuracy: 96.0633316040039, Test Loss: 0.0672094002366066, Test Accuracy: 97.90999603271484
