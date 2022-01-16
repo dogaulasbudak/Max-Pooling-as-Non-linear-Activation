@@ -6,9 +6,13 @@ The architecture is composed of a 2D Convolution layer with ReLu activation foll
 logits. The architecture is trained and tested on the MNIST dataset with five epochs. The results are as follows: 
 
   Epoch 1, Loss: 0.13081109523773193, Accuracy: 96.0633316040039, Test Loss: 0.0672094002366066, Test Accuracy: 97.90999603271484
+  
   Epoch 2, Loss: 0.041160643100738525, Accuracy: 98.65666961669922, Test Loss: 0.062492676079273224, Test Accuracy: 98.0999984741211
+  
   Epoch 3, Loss: 0.020556345582008362, Accuracy: 99.34666442871094, Test Loss: 0.059021007269620895, Test Accuracy: 98.25999450683594
+  
   Epoch 4, Loss: 0.012619039043784142, Accuracy: 99.57333374023438, Test Loss: 0.06614897400140762, Test Accuracy: 98.22999572753906
+  
   Epoch 5, Loss: 0.008782784454524517, Accuracy: 99.70832824707031, Test Loss: 0.06712484359741211, Test Accuracy: 98.37999725341797
   
   
