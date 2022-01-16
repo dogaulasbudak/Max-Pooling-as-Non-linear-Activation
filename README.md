@@ -19,9 +19,13 @@ logits. The architecture is trained and tested on the MNIST dataset with five ep
 I have replaced the Relu activation with a max-pooling layer. The full modified code can be found in the cnn.py file. The results are as follows:
 
   Epoch 1, Loss: 0.19458936154842377, Accuracy: 94.11000061035156, Test Loss: 0.11389774084091187, Test Accuracy: 96.2300033569336
+  
   Epoch 2, Loss: 0.08985093235969543, Accuracy: 97.23833465576172, Test Loss: 0.09503132849931717, Test Accuracy: 97.15999603271484
+  
   Epoch 3, Loss: 0.06469723582267761, Accuracy: 97.96666717529297, Test Loss: 0.10199881345033646, Test Accuracy: 96.91000366210938
+  
   Epoch 4, Loss: 0.0470975860953331, Accuracy: 98.43333435058594, Test Loss: 0.10860186815261841, Test Accuracy: 97.0999984741211
+  
   Epoch 5, Loss: 0.03559423238039017, Accuracy: 98.77832794189453, Test Loss: 0.109564408659935, Test Accuracy: 97.38999938964844
   
 Findings:
